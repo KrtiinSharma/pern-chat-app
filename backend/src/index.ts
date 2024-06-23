@@ -18,3 +18,6 @@ app.use("/api/messages", messageRoutes);
 app.listen(5000, () => {
   console.log("server is running on port 5000");
 });
+
+//TODO Add socket.io to the server
+//TODO configure this server for the deployment
